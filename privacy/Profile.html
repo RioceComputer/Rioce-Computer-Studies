@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+  <head>
+  <meta charset="utf-8">
+  <title>Student profile</title>
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="icon" type="image/png" sizes="32x32" href="../image/Rioce-image.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="../image/Rioce-image.png">
+  <link rel="shortcut icon" href="favicon.ico">
+  <link rel="stylesheet" href="../style/profilestyle.css">
+  <script src="../script/profile.js" defer></script>
+</head>
+<body>
+  <aside class="sidebar">
+    <h2>Dashboard</h2>
+    <a href="#" class="active">Profile</a>
+    <a href="javascript:void(0)" onclick="toggleCourseSectionUnique()">Courses</a>
+    <a href="../payment/payment.html">Payments</a>
+    <a href="#setting">Settings</a>
+      <h3>Actions</h3>
+        <button class="btn btn-danger" onclick="logout()">Logout</button>
+    </div>
+  </aside>
+  <div class="main">
+    <main>
+  <div id="student-course-wrapper-unique" style="display:none;">
+    <div id="student-course-box-unique">
+      <select id="student-course-select-unique">
+        <option value="" disabled selected>Select your course</option>
+        <option value="CCC">CCC</option>
+        <option value="DCA">DCA</option>
+        <option value="DFA">DFA</option>
+        <option value="Typing Course">Typing Course</option>
+        <option value="ADFA">ADFA</option>
+        <option value="O.Level">O.Level</option>
+        <option value="Other Course">Other Course</option>
+      </select>
+      <button id="student-course-save-btn-unique" onclick="saveStudentCourseUnique()">Save / Update Course</button>
+    </div>
+    <div id="student-course-display-unique" style="margin-top:10px; font-weight:bold; color:#007bff;"></div>
+  </div>
+</main>
+    <div class="header">
+      <h1 style="font-size:18px;">Student Dashboard</h1>
+      <div class="user-info">
+        <img id="profilePic" src="../image/Rioce-image.png" alt="Profile">
+        <input type="file" id="fileInput" accept="image/*" style="display:none" onclick="previewImage(event)">
+      </div>
+    </div>
+    <div class="content">
+      <div class="card">
+        <h3>Change Email</h3>
+        <input type="email" id="newEmail" placeholder="Enter new email">
+        <button class="btn btn-primary" onclick="changeEmail()">Update Email</button>
+      </div>
+      <div class="card">
+        <h3>Change Password</h3>
+        <input type="password" id="newPassword" placeholder="Enter new password">
+        <button class="btn btn-primary" onclick="changePassword()">Update Password</button>
+      </div>
+      <div class="card">
+    </div>
+  </div>
+</body>
+</html>
