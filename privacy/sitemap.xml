@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+  <!-- Main Homepage / Login & Register -->
+  <url>
+    <loc>https://rioce-computer-studies.onrender.com/</loc>
+    <lastmod>2026-06-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.00</priority>
+  </url>
+
+  <!-- Student Dashboard -->
+  <url>
+    <loc>https://rioce-computer-studies.onrender.com/dashboard.html</loc>
+    <lastmod>2026-06-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.90</priority>
+  </url>
+
+  <!-- User Profile Page -->
+  <url>
+    <loc>https://rioce-computer-studies.onrender.com/privacy/Profile.html</loc>
+    <lastmod>2026-06-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+  </url>
+
+  <!-- Admission Application Page -->
+  <url>
+    <loc>https://rioce-computer-studies.onrender.com/image/admission/admission.html</loc>
+    <lastmod>2026-06-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+  </url>
+
+  <!-- Courses Details Page -->
+  <url>
+    <loc>https://rioce-computer-studies.onrender.com/course/courses.html</loc>
+    <lastmod>2026-06-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+  </url>
+
+  <!-- Forget Password Page -->
+  <url>
+    <loc>https://rioce-computer-studies.onrender.com/privacy/forget.html</loc>
+    <lastmod>2026-06-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.50</priority>
+  </url>
+
+</urlset>
